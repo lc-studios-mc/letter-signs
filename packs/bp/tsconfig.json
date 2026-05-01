@@ -1,7 +1,6 @@
 {
-	// For BP scripts
 	"compilerOptions": {
-		"rootDir": "packs/bp/scripts",
+		"rootDir": "./scripts",
 		"target": "es2023",
 		"module": "nodenext",
 		"moduleResolution": "nodenext",
@@ -14,5 +13,5 @@
 		"allowJs": true,
 		"checkJs": true
 	},
-	"include": ["packs/bp/scripts/**/*"]
+	"include": ["./scripts/**/*"]
 }
