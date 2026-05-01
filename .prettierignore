@@ -1,0 +1,8 @@
+.github/
+node_modules/
+
+LICENSE
+bun.lock
+
+*.animation.json
+*.geo.json

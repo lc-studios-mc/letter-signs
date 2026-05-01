@@ -1,0 +1,8 @@
+node_modules/
+
+*.mcaddon
+*.mcpack
+*.tgz
+*.zip
+
+.env

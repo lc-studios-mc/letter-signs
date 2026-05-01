@@ -1,0 +1,35 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Easy letter/character signs!",
+		"name": "Letter Signs",
+		"uuid": "6ce83eb5-122b-477a-a59e-60198c54382a",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 26, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "100a6b53-b383-4816-abc8-98fc2aebfe5a",
+			"version": [1, 0, 0]
+		},
+		{
+			"uuid": "765d4979-eddd-40b6-92cc-774cfd76d568",
+			"version": [1, 0, 0],
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/entry.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.5.0"
+		},
+		{
+			// Resource pack
+			"uuid": "58c8bff6-60b0-4b2f-a02d-88e3bc08fb69",
+			"version": [1, 0, 0]
+		}
+	]
+}

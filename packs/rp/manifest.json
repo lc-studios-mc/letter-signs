@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Easy letter/character signs!",
+		"name": "Letter Signs",
+		"uuid": "58c8bff6-60b0-4b2f-a02d-88e3bc08fb69",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 26, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "12d5caae-3eec-461a-8432-f75d1682d387",
+			"version": [1, 0, 0]
+		}
+	]
+}
