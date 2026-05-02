@@ -27,6 +27,10 @@
 			"version": "2.5.0"
 		},
 		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		},
+		{
 			// Resource pack
 			"uuid": "58c8bff6-60b0-4b2f-a02d-88e3bc08fb69",
 			"version": [1, 0, 0]
