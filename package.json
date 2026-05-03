@@ -2,6 +2,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"build": "bun scripts/build.ts",
 		"link-packs": "bun scripts/link-packs.ts",
 		"format": "prettier --write ."
 	},
