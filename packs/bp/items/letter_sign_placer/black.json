@@ -1,0 +1,21 @@
+{
+	"format_version": "1.26.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lettersigns:letter_sign_placer.black",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"lettersigns:letter_sign_placer": {
+				"color": "black"
+			},
+			"minecraft:display_name": {
+				"value": "lettersigns:item.letter_sign_placer.black"
+			},
+			"minecraft:icon": "lettersigns:letter_sign_placer.black",
+			"minecraft:max_stack_size": 64
+		}
+	}
+}

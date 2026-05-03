@@ -1,0 +1,13 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "lettersigns:letter_sign_placer.white"
+				}
+			]
+		}
+	]
+}

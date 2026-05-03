@@ -1,0 +1,17 @@
+{
+	"resource_pack_name": "lettersigns",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"lettersigns:letter_sign.black": {
+			"textures": "textures/lettersigns/blocks/letter_sign/black"
+		},
+		"lettersigns:letter_sign.gray": {
+			"textures": "textures/lettersigns/blocks/letter_sign/gray"
+		},
+		"lettersigns:letter_sign.white": {
+			"textures": "textures/lettersigns/blocks/letter_sign/white"
+		}
+	}
+}

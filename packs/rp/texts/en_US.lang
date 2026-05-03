@@ -1,0 +1,14 @@
+lettersigns:item.letter_sign_placer.black=Black Letter Sign
+lettersigns:item.letter_sign_placer.gray=Gray Letter Sign
+lettersigns:item.letter_sign_placer.white=White Letter Sign
+
+lettersigns:ui.letter_sign_placer.title=Letter Sign Options
+lettersigns:ui.letter_sign_placer.text.label=Text
+lettersigns:ui.letter_sign_placer.text.placeholder=Enter text
+lettersigns:ui.letter_sign_placer.text.tooltip=Each non-space character consumes one Letter Sign item
+lettersigns:ui.letter_sign_placer.spacing.label=Spacing
+lettersigns:ui.letter_sign_placer.spacing.tooltip=Number of air blocks to insert between each character
+lettersigns:ui.letter_sign_placer.submit=Place
+
+lettersigns:msg.letter_sign_placer.path_obstructed=§eThere was an obstruction!
+lettersigns:msg.letter_sign_placer.insufficient_items=§eYou ran out of signs!

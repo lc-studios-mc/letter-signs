@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:crafting_items_catalog": {
+		"categories": [
+			{
+				"category_name": "items",
+				"groups": [
+					{
+						"items": [
+							"lettersigns:letter_sign_placer.white",
+							"lettersigns:letter_sign_placer.gray",
+							"lettersigns:letter_sign_placer.black"
+						]
+					}
+				]
+			}
+		]
+	}
+}

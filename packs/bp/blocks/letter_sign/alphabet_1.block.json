@@ -1,0 +1,199 @@
+{
+	"format_version": "1.26.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lettersigns:letter_sign_alphabet_1",
+			"menu_category": {
+				"category": "none"
+			},
+			"states": {
+				"lettersigns:direction": ["north", "east", "south", "west"],
+				"lettersigns:tilt": ["none", "up", "down"],
+				"lettersigns:letter": [
+					"a",
+					"b",
+					"c",
+					"d",
+					"e",
+					"f",
+					"g",
+					"h",
+					"i",
+					"j",
+					"k",
+					"l",
+					"m",
+					"n",
+					"o",
+					"p"
+				],
+				"lettersigns:color": ["black", "gray", "white"]
+			}
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/lettersigns/letter_sign/white.json",
+			"minecraft:geometry": {
+				"identifier": "geometry.lettersigns.letter_sign.alphabet",
+				"bone_visibility": {
+					"a": "q.block_state('lettersigns:letter') == 'a'",
+					"b": "q.block_state('lettersigns:letter') == 'b'",
+					"c": "q.block_state('lettersigns:letter') == 'c'",
+					"d": "q.block_state('lettersigns:letter') == 'd'",
+					"e": "q.block_state('lettersigns:letter') == 'e'",
+					"f": "q.block_state('lettersigns:letter') == 'f'",
+					"g": "q.block_state('lettersigns:letter') == 'g'",
+					"h": "q.block_state('lettersigns:letter') == 'h'",
+					"i": "q.block_state('lettersigns:letter') == 'i'",
+					"j": "q.block_state('lettersigns:letter') == 'j'",
+					"k": "q.block_state('lettersigns:letter') == 'k'",
+					"l": "q.block_state('lettersigns:letter') == 'l'",
+					"m": "q.block_state('lettersigns:letter') == 'm'",
+					"n": "q.block_state('lettersigns:letter') == 'n'",
+					"o": "q.block_state('lettersigns:letter') == 'o'",
+					"p": "q.block_state('lettersigns:letter') == 'p'",
+					"q": false,
+					"r": false,
+					"s": false,
+					"t": false,
+					"u": false,
+					"v": false,
+					"w": false,
+					"x": false,
+					"y": false,
+					"z": false
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lettersigns:letter_sign.white",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:destruction_particles": {
+				"texture": "white_concrete",
+				"particle_count": 30
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-8, 0, 7],
+				"size": [16, 16, 1]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 5
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.15
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('lettersigns:color') == 'black'",
+				"components": {
+					"minecraft:loot": "loot_tables/lettersigns/letter_sign/black.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "lettersigns:letter_sign.black",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:destruction_particles": {
+						"texture": "black_concrete",
+						"particle_count": 30
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:color') == 'gray'",
+				"components": {
+					"minecraft:loot": "loot_tables/lettersigns/letter_sign/gray.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "lettersigns:letter_sign.gray",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:destruction_particles": {
+						"texture": "light_gray_concrete",
+						"particle_count": 30
+					}
+				}
+			},
+
+			{
+				"condition": "q.block_state('lettersigns:direction') == 'north'",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 0, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:direction') == 'east'",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, -90, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:direction') == 'south'",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 180, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:direction') == 'west'",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 90, 0] }
+				}
+			},
+
+			{
+				"condition": "q.block_state('lettersigns:tilt') == 'down' && q.block_state('lettersigns:direction') == 'north'",
+				"components": {
+					"minecraft:transformation": { "rotation": [-90, 0, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:tilt') == 'down' && q.block_state('lettersigns:direction') == 'east'",
+				"components": {
+					"minecraft:transformation": { "rotation": [-90, -90, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:tilt') == 'down' && q.block_state('lettersigns:direction') == 'south'",
+				"components": {
+					"minecraft:transformation": { "rotation": [-90, 180, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:tilt') == 'down' && q.block_state('lettersigns:direction') == 'west'",
+				"components": {
+					"minecraft:transformation": { "rotation": [-90, 90, 0] }
+				}
+			},
+
+			{
+				"condition": "q.block_state('lettersigns:tilt') == 'up' && q.block_state('lettersigns:direction') == 'north'",
+				"components": {
+					"minecraft:transformation": { "rotation": [90, 0, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:tilt') == 'up' && q.block_state('lettersigns:direction') == 'east'",
+				"components": {
+					"minecraft:transformation": { "rotation": [90, -90, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:tilt') == 'up' && q.block_state('lettersigns:direction') == 'south'",
+				"components": {
+					"minecraft:transformation": { "rotation": [90, 180, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('lettersigns:tilt') == 'up' && q.block_state('lettersigns:direction') == 'west'",
+				"components": {
+					"minecraft:transformation": { "rotation": [90, 90, 0] }
+				}
+			}
+		]
+	}
+}

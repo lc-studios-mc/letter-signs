@@ -1,0 +1,15 @@
+{
+	"resource_pack_name": "lettersigns",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"lettersigns:letter_sign_placer.white": {
+			"textures": "textures/lettersigns/items/letter_sign_placer/white"
+		},
+		"lettersigns:letter_sign_placer.gray": {
+			"textures": "textures/lettersigns/items/letter_sign_placer/gray"
+		},
+		"lettersigns:letter_sign_placer.black": {
+			"textures": "textures/lettersigns/items/letter_sign_placer/black"
+		}
+	}
+}

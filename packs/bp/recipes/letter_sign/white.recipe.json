@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "lettersigns:letter_sign_placer.white"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [
+			//
+			"AC",
+			"B "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:oak_sign"
+			},
+			"B": {
+				"item": "minecraft:slime_ball"
+			},
+			"C": {
+				"item": "minecraft:white_dye"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:oak_sign"
+			},
+			{
+				"item": "minecraft:slime_ball"
+			}
+		],
+		"result": {
+			"item": "lettersigns:letter_sign_placer.white",
+			"count": 10
+		}
+	}
+}
