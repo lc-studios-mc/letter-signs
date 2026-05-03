@@ -35,5 +35,11 @@
 			"uuid": "58c8bff6-60b0-4b2f-a02d-88e3bc08fb69",
 			"version": [1, 0, 0]
 		}
-	]
+	],
+	"metadata": {
+		"authors": ["LC Studios MC"],
+		"license": "CC0 1.0",
+		"product_type": "addon",
+		"url": "https://github.com/lc-studios-mc/letter-signs"
+	}
 }
