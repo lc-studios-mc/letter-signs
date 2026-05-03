@@ -2,6 +2,8 @@
 
 A small addon for Minecraft Bedrock (v26.X) that adds simple Letter Sign blocks.
 
+See the list of supported characters [here](./docs/supported_chars.md).
+
 <img width="480" height="270" alt="letter-signs" src="https://github.com/user-attachments/assets/b8a43f95-1020-46c4-a27b-e37f2c5dc678" />
 
 [Download](https://github.com/lc-studios-mc/letter-signs/releases)
