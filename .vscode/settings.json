@@ -1,7 +1,12 @@
 {
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.insertSpaces": false,
 	"files.associations": {
 		"*.json": "jsonc",
 		"package.json": "json"
+	},
+	"[markdown]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
 	}
 }
