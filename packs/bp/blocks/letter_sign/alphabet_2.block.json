@@ -65,6 +65,15 @@
 			"minecraft:connection_rule": {
 				"accepts_connections_from": "none"
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"can_contain_liquid": true, // Waterloggable
+						"on_liquid_touches": "no_reaction" // Water flows through the block like air
+					}
+				]
+			},
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 5
 			},
