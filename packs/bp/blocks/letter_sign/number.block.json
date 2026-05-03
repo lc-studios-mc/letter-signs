@@ -46,6 +46,9 @@
 				"origin": [-8, 0, 7],
 				"size": [16, 16, 1]
 			},
+			"minecraft:connection_rule": {
+				"accepts_connections_from": "none"
+			},
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 5
 			},
