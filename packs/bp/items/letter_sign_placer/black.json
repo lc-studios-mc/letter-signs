@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lettersigns:letter_sign_placer.black",
 			"menu_category": {
-				"category": "items"
+				"category": "construction"
 			}
 		},
 		"components": {

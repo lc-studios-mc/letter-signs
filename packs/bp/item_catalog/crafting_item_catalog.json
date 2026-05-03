@@ -3,7 +3,7 @@
 	"minecraft:crafting_items_catalog": {
 		"categories": [
 			{
-				"category_name": "items",
+				"category_name": "construction",
 				"groups": [
 					{
 						"items": [
