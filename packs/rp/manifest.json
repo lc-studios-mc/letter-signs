@@ -14,5 +14,11 @@
 			"version": [1, 0, 0]
 		}
 	],
-	"capabilities": ["pbr"]
+	"capabilities": ["pbr"],
+	"metadata": {
+		"authors": ["LC Studios MC"],
+		"license": "CC0 1.0",
+		"product_type": "addon",
+		"url": "https://github.com/lc-studios-mc/letter-signs"
+	}
 }
