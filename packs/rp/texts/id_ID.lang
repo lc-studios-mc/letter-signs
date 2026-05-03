@@ -1,0 +1,15 @@
+lettersigns:item.letter_sign_placer.black=Papan Huruf Hitam
+lettersigns:item.letter_sign_placer.gray=Papan Huruf Abu-abu
+lettersigns:item.letter_sign_placer.white=Papan Huruf Putih
+
+lettersigns:ui.letter_sign_placer.title=Pengaturan Papan Huruf
+lettersigns:ui.letter_sign_placer.text.label=Teks
+lettersigns:ui.letter_sign_placer.text.placeholder=Masukkan teks
+lettersigns:ui.letter_sign_placer.text.tooltip=Setiap karakter selain spasi akan menggunakan satu item Papan Huruf
+lettersigns:ui.letter_sign_placer.spacing.label=Jarak
+lettersigns:ui.letter_sign_placer.spacing.tooltip=Jumlah blok udara yang akan disisipkan di antara setiap karakter
+lettersigns:ui.letter_sign_placer.submit=Pasang
+
+lettersigns:msg.letter_sign_placer.unsupported_character=§cKarakter tidak didukung: %s
+lettersigns:msg.letter_sign_placer.path_obstructed=§ePemasangan terhalang!
+lettersigns:msg.letter_sign_placer.insufficient_items=§eKamu kehabisan papan!
