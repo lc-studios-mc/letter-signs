@@ -13,13 +13,13 @@ This project is in the public domain: [CC0 1.0](./LICENSE)
 You can use it for anything, without any rules.
 But a credit/attribution (optional) is highly appreciated!
 
-## Developer setup guide
+## Developer Setup Guide
 
 Install [Git](https://git-scm.com/install) and [Bun](https://bun.com/) on your computer.
 
 Once you've cloned this repo locally, run `bun i` command inside the clone to install dependencies.
 
-### Linking packs
+### Linking Packs
 
 A symbolic link, or symlink for short, is a shortcut file pointing to another file or folder.
 Most applications treat symlinks like a file or folder is actually there.
