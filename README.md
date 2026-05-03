@@ -1,5 +1,18 @@
 # Letter Signs
 
+A small addon for Minecraft Bedrock (v26.X) that adds simple Letter Sign blocks.
+
+![Gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGhyeDVlY3MxMTN0ZnVtNXE4ZmduZjY1Z2Z0N293bm1vc3AxZXJsdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8P3OJvb6rwfXejH74G/giphy.gif)
+
+[Download](https://github.com/lc-studios-mc/letter-signs/releases)
+
+## License / Usage Guide
+
+This project is in the public domain: [CC0 1.0](./LICENSE)
+
+You can use it for anything, without any rules.
+But a credit/attribution (optional) is highly appreciated!
+
 ## Developer setup guide
 
 Install [Git](https://git-scm.com/install) and [Bun](https://bun.com/) on your computer.
