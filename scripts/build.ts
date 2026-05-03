@@ -17,7 +17,7 @@ zip.addLocalFolder(bpSourcePath, "letter-signs-bp");
 zip.addLocalFolder(rpSourcePath, "letter-signs-rp");
 
 zip.writeZip(outputZipPath);
-console.log(`Created ${outputZipPath}`);
+console.log(`Created ZIP archive`);
 
 zip.writeZip(outputMcaddonPath);
-console.log(`Created ${outputMcaddonPath}`);
+console.log(`Created MCADDON archive`);
