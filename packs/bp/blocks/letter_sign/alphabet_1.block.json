@@ -84,7 +84,8 @@
 			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0.15
-			}
+			},
+			"tag:lettersigns:letter_sign": {}
 		},
 		"permutations": [
 			{
