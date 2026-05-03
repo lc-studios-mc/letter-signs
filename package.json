@@ -8,7 +8,9 @@
 	"devDependencies": {
 		"@minecraft/server": "2.5.0",
 		"@minecraft/server-ui": "2.0.0",
+		"@types/adm-zip": "^0.5.8",
 		"@types/bun": "latest",
+		"adm-zip": "^0.5.17",
 		"prettier": "^3.8.3",
 		"typescript": "^6.0.3"
 	}
