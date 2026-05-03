@@ -10,5 +10,5 @@ lettersigns:ui.letter_sign_placer.spacing.label=Spacing
 lettersigns:ui.letter_sign_placer.spacing.tooltip=Number of air blocks to insert between each character
 lettersigns:ui.letter_sign_placer.submit=Place
 
-lettersigns:msg.letter_sign_placer.path_obstructed=§eThere was an obstruction!
+lettersigns:msg.letter_sign_placer.path_obstructed=§ePlacement was obstructed!
 lettersigns:msg.letter_sign_placer.insufficient_items=§eYou ran out of signs!
