@@ -1,0 +1,15 @@
+lettersigns:item.letter_sign_placer.black=黒色のレターサイン
+lettersigns:item.letter_sign_placer.gray=灰色のレターサイン
+lettersigns:item.letter_sign_placer.white=白色のレターサイン
+
+lettersigns:ui.letter_sign_placer.title=レターサインの設定
+lettersigns:ui.letter_sign_placer.text.label=テキスト
+lettersigns:ui.letter_sign_placer.text.placeholder=文字を入力
+lettersigns:ui.letter_sign_placer.text.tooltip=空白以外の文字1つにつき、アイテムを1つ消費
+lettersigns:ui.letter_sign_placer.spacing.label=文字の間隔
+lettersigns:ui.letter_sign_placer.spacing.tooltip=文字間に挿入する空気ブロックの数
+lettersigns:ui.letter_sign_placer.submit=設置する
+
+lettersigns:msg.letter_sign_placer.unsupported_character=§cサポートされていない文字: %s
+lettersigns:msg.letter_sign_placer.path_obstructed=§e進路にブロックがあるため、設置を中断しました！
+lettersigns:msg.letter_sign_placer.insufficient_items=§eアイテムが足りません！
