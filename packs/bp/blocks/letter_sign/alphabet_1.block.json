@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "lettersigns:letter_sign_alphabet_1",
 			"menu_category": {
-				"category": "none"
+				"category": "none",
+				"is_hidden_in_commands": true
 			},
 			"states": {
 				"lettersigns:direction": ["north", "east", "south", "west"],
