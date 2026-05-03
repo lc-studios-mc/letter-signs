@@ -1,0 +1,15 @@
+lettersigns:item.letter_sign_placer.black=Чёрная буквенная табличка
+lettersigns:item.letter_sign_placer.gray=Серая буквенная табличка
+lettersigns:item.letter_sign_placer.white=Белая буквенная табличка
+
+lettersigns:ui.letter_sign_placer.title=Настройки буквенной таблички
+lettersigns:ui.letter_sign_placer.text.label=Текст
+lettersigns:ui.letter_sign_placer.text.placeholder=Введите текст
+lettersigns:ui.letter_sign_placer.text.tooltip=Каждый символ (кроме пробела) расходует одну табличку
+lettersigns:ui.letter_sign_placer.spacing.label=Интервал
+lettersigns:ui.letter_sign_placer.spacing.tooltip=Количество блоков воздуха между символами
+lettersigns:ui.letter_sign_placer.submit=Установить
+
+lettersigns:msg.letter_sign_placer.unsupported_character=§cНеподдерживаемый символ: %s
+lettersigns:msg.letter_sign_placer.path_obstructed=§eУстановка прервана: на пути препятствие!
+lettersigns:msg.letter_sign_placer.insufficient_items=§eУ вас закончились таблички!
