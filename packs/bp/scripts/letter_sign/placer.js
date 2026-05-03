@@ -79,7 +79,10 @@ const startPlacerSession = async (player, origin, originFace, placerType, letter
 		const signDefinition = signRegistry[char];
 		if (!signDefinition) {
 			console.error(`Unsupported character: ${char}`);
-			player.sendMessage(`§cUnsupported character at position ${i}: ${char}`);
+			player.sendMessage({
+				translate: "lettersigns:msg.letter_sign_placer.unsupported_character",
+				with: [char],
+			});
 			return;
 		}
 
