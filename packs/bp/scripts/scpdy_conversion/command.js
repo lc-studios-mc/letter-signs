@@ -38,11 +38,18 @@ function* conversionGenerator(dimension, center) {
 	for (let x = startX; x < startX + size; x++) {
 		for (let y = startY; y < startY + size; y++) {
 			for (let z = startZ; z < startZ + size; z++) {
-				const block = dimension.getBlock({ x, y, z });
+				let block;
+				try {
+					block = dimension.getBlock({ x, y, z });
+				} catch {
+					continue; // Probably a generic "out of bounds" error
+				}
+
 				if (!block) continue;
 
 				const converted = tryConversion(block);
 				if (converted) convertedCount++;
+
 				yield;
 			}
 		}
